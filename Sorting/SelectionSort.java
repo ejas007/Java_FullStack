@@ -30,5 +30,6 @@ public class SelectionSort {
 
         int a = 'b';
         System.out.println(a);
+        System.out.println("Hello");
     }
 }
