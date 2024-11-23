@@ -24,6 +24,5 @@ public class Multiplication2D {
             }
             System.out.println();
         }
-
     }
 }
