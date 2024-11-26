@@ -23,7 +23,7 @@ public class MultipleBlocks {
     }
 
     public static void main(String[] args) {
-        MultipleBlocks m = new MultipleBlocks();
-        MultipleBlocks m1 = new MultipleBlocks();
+        // MultipleBlocks m = new MultipleBlocks();
+        // MultipleBlocks m1 = new MultipleBlocks();
     }
 }

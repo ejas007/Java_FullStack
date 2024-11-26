@@ -17,7 +17,7 @@ public class StaticBlock {
     }
 
     public static void main(String[] args) {
-        StaticBlock a = new StaticBlock();
+        // StaticBlock a = new StaticBlock();
         
     }
 }

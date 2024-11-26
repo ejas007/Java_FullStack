@@ -28,6 +28,6 @@ public class AccessStaticVar {
     public static void main(String[] args) {
         AccessStaticVar a = new AccessStaticVar();
         a.nonStaticDisp();
-        a.staicDisp();
+        AccessStaticVar.staicDisp();
     }
 }
