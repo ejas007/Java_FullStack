@@ -23,7 +23,8 @@ public class ATM {
                 System.out.println("1. Deposited\n" +
                         "2. Withdrawl\n" +
                         "3. Balance Checking\n" +
-                        "4. Exit");
+                        "4. Transaction Details\n"+
+                        "5. Exit");
 
                 int options = sc.nextInt();
                 switch (options) {
@@ -45,6 +46,10 @@ public class ATM {
                         System.out.println("Current Balance is : " + balance);
                         break;
                     case 4:
+                        
+                        break;
+                    
+                    case 5:
                         System.out.println("Thank you");
                         isTrue = false;
                         break;
