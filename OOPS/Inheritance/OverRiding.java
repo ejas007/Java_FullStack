@@ -16,8 +16,8 @@ class Animal {
 }
 
 class Tiger extends Animal {
-    @Override
-    void eat() {
+    
+     void eat() {
         System.out.println("Tiger is eating");
     }
 }
@@ -34,10 +34,14 @@ class Monkey extends Animal {
     void eat() {
         System.out.println("Monkey is eating");
     }
+    void jump() {
+        System.out.println("Monkey is jumping");
+        }
 }
 
 public class OverRiding {
     public static void main(String[] args) {
+        // Animal animal = new Animal();
         String animalType = "Tiger";
         System.out.println(animalType.compareToIgnoreCase(animalType));
         Tiger t = new Tiger();
@@ -54,5 +58,6 @@ public class OverRiding {
         m.eat();
         m.breathe();
         m.sleep();
+        // (animal).jump(); This will not compile
     }
 }
