@@ -2,6 +2,7 @@ package OOPS.Constructor;
 class Employee{
     String ename;
     int id;
+    float percentage;
     Employee(String ename,int id){
         this.ename=ename;
         this.id=id;
@@ -9,6 +10,7 @@ class Employee{
     Employee(Employee emp){
         this(emp.ename, emp.id);
     }
+
 }
 public class CopyConstructor {
     public static void main(String[] args) {
