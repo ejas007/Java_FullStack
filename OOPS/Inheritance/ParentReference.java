@@ -35,5 +35,16 @@ public class ParentReference {
         ref.display(); // Output: Inside Child2 Class
 
 
+        // Upcasting and Downcasting
+        // Upcasting
+        // Parent p1 = new Child1(); 
+        // Process of providing a parent reference to a child object is called upcasting
+        // Characterstics of parent class are used when we upcast a child object to parent reference
+        // We can't access child class methods using parent reference and can access only inherited method 
+        // When we envoke overridden method the execution is from subclass but not from super class
+        // Downcasting
+        // Process of providing subclass object to superclass reference is called downcasting
+        // We can access child class methods using parent reference and can access only inherited method
+        
     }
 }
