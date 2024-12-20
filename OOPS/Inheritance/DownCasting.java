@@ -33,7 +33,7 @@ public class DownCasting {
         Food b = new Biryani();
         b.m();
         ((Biryani)b).m2();
-        Food f1 = new MasalaDosa();
-        Food f2 = new ChickenBiryani();
+        // Food f1 = new MasalaDosa();
+        // Food f2 = new ChickenBiryani();
     }
 }
