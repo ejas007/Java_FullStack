@@ -1,16 +1,11 @@
-package Object_Creation;
-/**
- * Student
- */
-public class Student {
-    int age = 22;
-    String name = "Gulluu";
-    
-    public static void main(String[] args) {
-        Student s = new Student();
-        System.out.println(s);
+// package 01_Object_Creation;
 
-        Student s2 = new Student();
-        System.out.println(s2);
+public class Student {
+        private Student(){
+            System.out.println("Hello");
+        }
+
+        public static void main(String[] args) {
+            Student s = new Student();
+        }
     }
-}
